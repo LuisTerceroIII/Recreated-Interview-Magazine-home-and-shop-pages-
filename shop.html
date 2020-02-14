@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="CSS/Shop.css">
+    <script src="https://kit.fontawesome.com/1e6bedc8da.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Rokkitt:500&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet"> 
+    <script src="Javascript/Buttons.js"></script>
+    <title>Shop</title>
+</head>
+<body>
+    <header class="header">
+
+        <div class="box-1">
+            <button class="item-box-1 button-menu" ><i class="fas fa-bars"></i></button>
+            <img class="item-box-1 image-box-1" src="Images/Banner/Baner.png" alt="INTERVIEW LOGO">
+            <button class="item-box-1 button-shopping-cart"><i class="fas fa-shopping-cart"></i></button>
+        </div>
+        <div class="box-2">
+             <ul class="principal-menu">
+                <li class="item-menu"><a class="font-menu" href="index.html">NEWS</a></li>
+                <li class="item-menu"><a class="font-menu" href="#">POPULAR</a></li>
+                <li class="item-menu"><a class="font-menu" href="#">ART</a></li>
+                <li class="item-menu"><a class="font-menu" href="#">MUSIC</a></li>
+                <li class="item-menu"><a class="font-menu" href="#">FASHION</a></li>
+                <li class="item-menu"><a class="font-menu" href="#">ENTERTAINMENT</a></li>
+                <li class="item-menu"><a class="font-menu" href="#">SHOP</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="product-container">
+
+        <div class="image-product-container">
+            <img class="image-product" src="Images/Shop/Product01.jpg" alt="Foto producto">
+        </div>
+
+        <div class="product-name-container">
+            <a class="product-name" href="#">INTERVIEW #529: “Finn Wolfhard,” - WINTER 2019 </a>
+        </div>
+
+        <div class="price-container">
+            <p class="price" id="price">$12.00</p>
+        </div>
+
+        <div class="quanity-container">
+
+            <p class="label">QUATITY</p>
+
+            <div class="buttons-container">
+                <button class="less buttons" onclick="lessButton()"> - </button>
+                <input type="button" class="total buttons"  id="quantity" value="1">
+                <button class="more buttons" onclick="moreButton()"> + </button>
+                
+            </div>
+
+            <div class="buy-container">
+                <button class="buy-button" id="buy-button" value="0" onclick="buy()">ADD TO CART</button>
+            </div>
+
+        </div>
+    
+        <div class="details-container">
+            <a href="#" class="details">Full details —›</a>
+        </div>
+
+        <div class="brand-buttons-container">
+
+            <a class="brand-button" href="#">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+
+            <a class="brand-button" href="#">
+                <i class="fab fa-twitter"></i>
+            </a>
+
+        </div>
+    </div>
+    
+</body>
+</html>
