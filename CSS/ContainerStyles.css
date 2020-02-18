@@ -1,0 +1,217 @@
+/* Estilos generales */
+/*
+
+La intencion de este css es crear media queris en cascada, de tal manera que se ejecute siguiendo la linea de
+mobile first.
+
+de 300 a 750 un tamaño
+de 750 a 100 otro
+de 1000 a 1200 otro
+de 1200 a inf otro
+*/
+
+img{
+    max-width: 100%;
+}
+.firstNotice{
+    margin-top: 5%;
+    max-width: 100%;
+    height:auto;
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    overflow: hidden;
+    /* max-height:10000px;    Los max-height: deben usasrse en las media queris;*/
+    display: block;
+    transition: background-color 2s;
+}
+
+
+.ImageFirstNotice{
+
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.firstNoticePhoto{
+    display: block;
+    max-width: 100%;
+    margin-left:auto;
+    margin-right:auto;
+    transition: padding 2s;
+
+}
+
+
+.textFirstNotice{
+    display: block;
+    margin-right: 5%;
+    margin-left: 5%;
+    background-color: rgb(255, 255, 255);
+}
+
+.FirstNoticeTitle{
+    display: block;
+    max-width: 100%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.FirstNoticeReview{
+    display: block;
+    max-width: 100%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left: 3%;
+    padding-right:3%;
+    padding-bottom: 2%;
+}
+
+
+/* Comienza segunda noticia ------------------------------------------------------------------------------------*/
+
+.Notice{
+    margin-top:5%;
+    max-width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    overflow: hidden;
+    display: block;
+    transition: backgound-color 3s;
+
+}
+
+.ImageNotice{
+
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    
+}
+
+
+.NoticePhoto{
+    display: block;
+    max-width: 100%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:5%;
+    transition: padding 2s;
+
+}
+
+
+
+.textNotice{
+    display: block;
+    margin-right: 5%;
+    margin-left: 5%;
+    background-color: rgb(255, 255, 255);
+}
+
+.category{
+    display: block;
+    padding-top: 5%;
+    margin-top: 5%;
+    margin-left: 3%;
+
+    
+}
+
+.NoticeTitle{
+    display: block;
+    max-width: 99%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.author{
+
+    display:block;
+    margin-left: 3%;
+    margin-top: 0%;
+}
+
+
+.NoticesContainer{
+
+    display: inline-block;
+    margin: 5%;
+    
+}
+
+.SecondRow{
+
+    display: inline-block;
+    border: 10px solid white;
+}
+/*
+
+------------------------------Media queries-----------------------------------------
+
+*/
+
+@media screen and (min-width: 770px){
+
+    .ImageFirstNotice{
+        float: left;
+        margin: 5% 5% ;
+
+    }
+
+    .textFirstNotice{
+
+        margin: 5%;
+        
+    }
+}
+
+@media screen and (min-width: 990px){
+
+    .two, .three, .four, .five, .six, .seven{
+
+        margin: 1%;
+    }
+
+    .two, .three, .four{
+        float: left;
+        max-width: 31%;
+    }
+
+   
+    .five,.six, .seven{
+
+        float: left;
+        max-width: 31%;
+    }
+}
+
+/* 
+<------------------------------------EFECTOS----------------------->
+*/
+
+
+.firstNotice:hover{
+
+    background-color: rgba(255, 198, 10, 0.774);
+}
+
+.firstNoticePhoto:hover{
+
+    padding: 5%;
+}
+
+.Notice:hover{
+
+    background-color: rgba(255, 198, 10, 0.774);
+}
+
+.NoticePhoto:hover{
+
+    padding: 5%;
+}
+

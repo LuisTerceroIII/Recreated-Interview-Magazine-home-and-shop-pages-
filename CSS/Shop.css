@@ -1,0 +1,228 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;   
+    background: black;
+}
+
+.box-1{
+    display: flex;
+    justify-content: space-between;
+    background: black;
+}
+
+.button-menu{
+
+    border-style: none;
+    background: black;
+    color: white;
+    flex-basis: 10%;
+    font-size: 130%;
+
+}
+
+.button-shopping-cart{
+
+    border-style: none;
+    background: black;
+    color: white;
+    flex-basis: 10%;
+    font-size: 130%;
+}
+
+
+
+.box-2{
+    margin-top: 1%;
+    display: flex;
+    background:black;
+    margin-bottom: 1%;
+}
+
+.principal-menu{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.item-menu{
+
+    list-style: none;
+    flex-basis: 20%;
+    margin-top: 1%;
+}
+
+.font-menu{
+
+    font-family: 'Rokkitt', serif;
+    color: white;
+    text-decoration-line: none;
+}
+
+
+.product-container{
+
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.image-product-container{
+
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.image-product{
+
+    flex-basis: 75%;
+    padding: 5%;
+}
+
+.product-name-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.product-name{
+
+    font-family: 'Rokkitt', serif;
+    font-size: 230%;
+    text-indent: 5%;
+    text-decoration: none;
+    color: black;
+}
+
+.product-name:hover{
+
+    border: 0px solid grey ;
+    background: rgba(128, 128, 128, 0.192);
+
+}
+
+.price-container{
+
+    display:flex;
+    justify-content: center;
+    margin-top: 0%;
+}
+
+.price{
+
+    font-family: 'Lora', serif;
+    font-size: 110%;
+    color:rgb(99, 99, 99);
+
+}
+
+.quanity-container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 5%;
+}
+
+.label{
+
+    font-size: 80%;
+    font-family: 'Noto Sans TC', sans-serif;
+    color:rgb(99, 99, 99);
+}
+
+.buttons-container{
+
+    display: flex;
+}
+.buttons{
+        border-style: solid;
+        flex-basis: 10%;
+        height: 3em;
+        background-color: rgba(128, 128, 128, 0.308);
+        margin-top: 5%;
+        margin-bottom: 5%;
+}
+
+.less:hover{
+
+    background-color: rgba(128, 128, 128, 0.603);
+
+}
+
+.more:hover{
+
+    background-color: rgba(128, 128, 128, 0.603);
+
+}
+
+.buy-container{
+
+    display: flex;
+}
+
+.buy-button{
+    
+    border-style: hidden;
+    flex-basis: 80%;
+    height: 3.5em;
+    color: white;
+    background: #2991d6;
+    border-radius: 2%;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.buy-button:hover{
+
+    background: #1f699b;
+}
+
+.details-container{
+
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+    
+}
+
+.details{
+    
+    text-decoration-line: none;
+    font-family: 'Oxygen', sans-serif;
+    color:#2991d6;
+}
+
+.brand-buttons-container{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.brand-button{
+
+    margin-right: 3%;
+    color: black;
+}
+
+
+
